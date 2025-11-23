@@ -5,13 +5,32 @@
 }
 
 .main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     background-image:linear-gradient(to bottom right, rgb(221, 207, 207), rgb(255, 255, 255));
     
+}
+.overlay{
+    width: 100vw;
+    height:100vh;
+    background-image: linear-gradient(#00e1ff,#ff00c8);
+    /* border: 10px solid red; */
+    position: absolute;
+    bottom: 0.01rem;
+    animation: overlay 1s forwards;
+    opacity: 1;
+    transition: all 1s;
+}
+@keyframes overlay {
+    to{
+        opacity: 0;
+    }
+    from{
+        opacity: 1;
+    }
 }
 .img img{
    
@@ -33,6 +52,9 @@ filter: drop-shadow( 8px 8px 5px grey);
  box-shadow: 0 0 1rem 10000px rgba(0, 0, 0, 0.363);
   z-index: 10;
 
+}
+.hover{
+    animation-delay: 3s;
 }
 
 .img-main-1{
