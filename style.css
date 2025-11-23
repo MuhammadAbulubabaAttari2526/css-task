@@ -13,6 +13,7 @@
     background-image:linear-gradient(to bottom right, rgb(221, 207, 207), rgb(255, 255, 255));
     
 }
+
 .img img{
    
    width: 100%;
@@ -45,7 +46,7 @@ position: relative;
 border-radius:1rem ;
 bottom: -30rem;
 left: 8rem;
-animation: box-1 1s forwards;
+animation: box-1 3s forwards;
 transition: all 0.4s;
 }
 
@@ -67,7 +68,7 @@ transition: all 0.4s;
   border-radius:1rem ;
 bottom:1.5rem;
 left: -11rem;
-animation: box-2 1s forwards;
+animation: box-2 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-2 {
@@ -102,7 +103,7 @@ filter: drop-shadow( 8px 8px 5px grey);
   border-radius:1rem ;
 bottom: 26rem;
 left: 3rem;
-animation: box-3 1s forwards;
+animation: box-3 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-3 {
@@ -123,7 +124,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom:-30rem;
 left: -3.40rem;
-animation: box-4 1s forwards;
+animation: box-4 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-4 {
@@ -149,7 +150,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: 30rem;
 left: -2rem;
-animation: box-5 1s forwards;
+animation: box-5 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-5 {
@@ -170,7 +171,7 @@ transition: all 0.4s;
   border-radius:1rem ;
 bottom: 13rem;
 left:-1rem;
-animation: box-6 1s forwards;
+animation: box-6 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-6 {
@@ -194,7 +195,7 @@ transition: all 0.4s;
   border-radius:1rem ;
 bottom: 24rem;
 left: rem;
-animation: box-7 1s forwards;
+animation: box-7 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-7 {
@@ -215,7 +216,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: -30rem;
 left:1rem;
-animation: box-8 1s forwards;
+animation: box-8 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-8 {
@@ -236,7 +237,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: 30rem;
 left: 2rem;
-animation: box-9 1s forwards;
+animation: box-9 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-9 {
@@ -257,7 +258,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: 30rem;
 left: 3rem;
-animation: box-10 1s forwards;
+animation: box-10 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-10 {
@@ -278,7 +279,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: 30rem;
 left: -3.3rem;
-animation: box-11 1s forwards;
+animation: box-11 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-11 {
@@ -302,7 +303,7 @@ transition: all 0.4s;
    border-radius:1rem ;
 bottom: 30rem;
 left: -1.4rem;
-animation: box-12 1s forwards;
+animation: box-12 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-12 {
@@ -326,7 +327,7 @@ transition: all 0.4s;
     border-radius:1rem ;
 bottom: 1.5rem;
 left: 30rem;
-animation: box-13 1s forwards;
+animation: box-13 3s forwards;
 transition: all 0.4s;
 }
 @keyframes box-13 {
