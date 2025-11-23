@@ -10,27 +10,42 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image:linear-gradient(to bottom right, rgb(182, 175, 175), rgb(255, 255, 255));
-
+    /* background-image:linear-gradient(to bottom right, rgb(221, 207, 207), rgb(255, 255, 255)); */
+    
 }
 .img img{
-    border: 1px solid red;
+   
    width: 100%;
    height: 100%;
-   margin-top: -20%;
-
+   margin-top: -20%;  
    
 }
 .img-main-1{
-    border: 1px solid red;
+ 
    width: 15%;
    height: 20%;
   overflow: hidden;
   margin: 0% auto;
 position: relative;
+border-radius:1rem ;
 bottom: -30rem;
 left: 8rem;
 animation: box-1 1s forwards;
+transition: all 0.5s;
+
+}
+.img-main-1:hover{
+     border: 1px solid transparent; 
+      background:
+    linear-gradient(#0000, #0000) padding-box,
+    linear-gradient(45deg, #ff00c8, #00e1ff) border-box;
+     width: 17%;
+   height: 22%;
+   position: relative;
+bottom: 15rem;
+filter: drop-shadow( 8px 8px 5px grey);
+ box-shadow: 0 0 2000rem 100px black;
+
 }
 @keyframes box-1 {
     to{
@@ -47,6 +62,7 @@ animation: box-1 1s forwards;
   overflow: hidden;
   margin: 0% auto;
   position: relative;
+  border-radius:1rem ;
 bottom:1.5rem;
 left: -13rem;
 animation: box-2 1s forwards;}
@@ -65,6 +81,7 @@ animation: box-2 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
   position: relative;
+  border-radius:1rem ;
 bottom: 26rem;
 left: 3rem;
 animation: box-3 1s forwards;}
@@ -83,6 +100,7 @@ animation: box-3 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom:-30rem;
 left: -3.40rem;
 animation: box-4 1s forwards;}
@@ -94,6 +112,11 @@ animation: box-4 1s forwards;}
         bottom: -30rem;
     }
 }
+.img-main-4 img{
+   margin-left: -30%;
+   margin-top: 0%;
+    width: 10rem;
+}
 .img-main-5{
     border: 1px solid red;
    width: 15%;
@@ -101,6 +124,7 @@ animation: box-4 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: 30rem;
 left: -2rem;
 animation: box-5 1s forwards;}
@@ -119,6 +143,7 @@ animation: box-5 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
   position: relative;
+  border-radius:1rem ;
 bottom: 13rem;
 left:-1rem;
 animation: box-6 1s forwards;}
@@ -130,6 +155,9 @@ animation: box-6 1s forwards;}
         bottom: -30rem;
     }
 }
+.img-main-6 img{
+    margin-top: 0%;
+}
 .img-main-7{
     border: 1px solid red;
    width: 15%;
@@ -137,6 +165,7 @@ animation: box-6 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
   position: relative;
+  border-radius:1rem ;
 bottom: 24rem;
 left: rem;
 animation: box-7 1s forwards;}
@@ -155,6 +184,7 @@ animation: box-7 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: -30rem;
 left:1rem;
 animation: box-8 1s forwards;}
@@ -173,6 +203,7 @@ animation: box-8 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: 30rem;
 left: 2rem;
 animation: box-9 1s forwards;}
@@ -191,6 +222,7 @@ animation: box-9 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: 30rem;
 left: 3rem;
 animation: box-10 1s forwards;}
@@ -209,6 +241,7 @@ animation: box-10 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: 30rem;
 left: -3.3rem;
 animation: box-11 1s forwards;}
@@ -220,6 +253,9 @@ animation: box-11 1s forwards;}
         bottom: -30rem;
     }
 }
+.img-main-11 img{
+    margin-top: 0%;
+}
 .img-main-12{
     border: 1px solid red;
    width: 15%;
@@ -227,6 +263,7 @@ animation: box-11 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
    position: relative;
+   border-radius:1rem ;
 bottom: 30rem;
 left: -1.4rem;
 animation: box-12 1s forwards;}
@@ -238,6 +275,9 @@ animation: box-12 1s forwards;}
         bottom: 30rem;
     }
 }
+.img-main-12 img{
+    margin-top: -10%;
+}
 .img-main-13{
     border: 1px solid red;
    width: 15%;
@@ -245,6 +285,7 @@ animation: box-12 1s forwards;}
   overflow: hidden;
   margin: 0% auto;
     position: relative;
+    border-radius:1rem ;
 bottom: 1.5rem;
 left: 30rem;
 animation: box-13 1s forwards;}
@@ -266,6 +307,7 @@ animation: box-13 1s forwards;}
     font-size: 0.9rem;
     text-align: center;
     position: absolute;
+    border-radius:1rem ;
     left: 46%;
     top: 40%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -277,6 +319,7 @@ animation: box-13 1s forwards;}
     font-size: 1.3rem;
     text-align: center;
     position: absolute;
+    border-radius:1rem ;
     left: 30%;
     top: 50%;
     font-family:Arial, Helvetica, sans-serif;
@@ -291,6 +334,7 @@ animation: box-13 1s forwards;}
      font-size: 1.3rem;
     text-align: center;
     position: absolute;
+    border-radius:1rem ;
     left: 30%;
     top: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -302,6 +346,7 @@ animation: box-13 1s forwards;}
      font-size: 1.3rem;
     text-align: center;
     position: absolute;
+    border-radius:1rem ;
     left: 30%;
     top: 85%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
